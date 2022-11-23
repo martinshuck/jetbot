@@ -32,10 +32,10 @@
 #==================================================================================
 import atexit
 import qwiic
+import Jetson.GPIO as GPIO
 from Adafruit_MotorHAT import Adafruit_MotorHAT
 import traitlets
 from traitlets.config.configurable import Configurable
-
 
 
 # Scan for devices on I2C bus
